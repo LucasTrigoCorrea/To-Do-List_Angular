@@ -1,0 +1,47 @@
+.tasks{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 30vw;
+    box-shadow: 1px 1px 10px 10px #ffffff11;
+    gap: 10px;
+}
+
+.tasks .tasks-details button{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #fff;
+    margin-right:  10px;
+}
+
+.tasks .tasks-details button:hover{
+    transform: brightness(0.5);
+    transition: all 0.3s;
+}
+
+.tasks .tasks-details{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 10px 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tasks .tasks-details .description{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.tasks .tasks-details .button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}

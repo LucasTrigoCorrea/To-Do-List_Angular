@@ -1,0 +1,15 @@
+<section class="tasks">
+    <h2>Lista de Tarefas</h2>
+    <div class="tasks-details" *ngFor="let task of tasks">
+        <div class="description">
+            <p>Tarefa: {{task.name}}</p>
+            <p>Descrição: {{task.description}}</p>
+
+        </div>
+        <div class="button">
+            <button (click)="limparTarefa(task.name)">Excluir tarefa</button>
+
+        </div>
+    </div>
+</section>
+<router-outlet></router-outlet>
